@@ -3,7 +3,7 @@ PHP_VERSION  ?= $(shell grep -m1 '^ARG PHP_VERSION='        Dockerfile | cut -d=
 WP_VERSION   ?= $(shell grep -m1 '^ARG WORDPRESS_VERSION='  Dockerfile | cut -d= -f2)
 
 # ── Image settings ───────────────────────────────────────────────────────────
-IMAGE        ?= ghcr.io/fabioassuncao/frankenphp-wordpress
+IMAGE        ?= ghcr.io/sudofabio/frankenphp-wordpress
 DEFAULT_ARCH ?= linux/amd64
 TAG          := php$(PHP_VERSION)-wp$(WP_VERSION)
 

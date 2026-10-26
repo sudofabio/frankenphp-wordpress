@@ -82,12 +82,12 @@ O `make verify-all` (`scripts/verify-php.sh`) falha o pipeline se o PHP da image
 
 ```bash
 # Standard (sem Sidekick)
-docker pull ghcr.io/fabioassuncao/frankenphp-wordpress:php8.4-wp7.1.3
-docker pull ghcr.io/fabioassuncao/frankenphp-wordpress:latest
+docker pull ghcr.io/sudofabio/frankenphp-wordpress:php8.4-wp7.1.3
+docker pull ghcr.io/sudofabio/frankenphp-wordpress:latest
 
 # Com Sidekick
-docker pull ghcr.io/fabioassuncao/frankenphp-wordpress:php8.4-wp7.1.3-sidekick
-docker pull ghcr.io/fabioassuncao/frankenphp-wordpress:latest-sidekick
+docker pull ghcr.io/sudofabio/frankenphp-wordpress:php8.4-wp7.1.3-sidekick
+docker pull ghcr.io/sudofabio/frankenphp-wordpress:latest-sidekick
 ```
 
 ## Estrutura de arquivos
